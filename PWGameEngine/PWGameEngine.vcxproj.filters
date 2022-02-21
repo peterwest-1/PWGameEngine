@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{14faa3ef-6b62-41fb-9d97-7f3a01592a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{d75ca2fa-008b-4ebb-bdcd-ee0e8c888443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FirstApplication">
+      <UniqueIdentifier>{582bce3a-06e5-46bb-92ed-76fdd024809f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Systems">
+      <UniqueIdentifier>{be1f8704-251c-4f87-97db-d46632d587cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Systems">
+      <UniqueIdentifier>{8df5ff9c-74fe-4234-8c2c-cfde39702558}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGBuffer.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGCamera.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGDescriptor.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGDevice.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGFrameInformation.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGGameObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGModel.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGPipeline.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGRenderer.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGSwapChain.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGUserInputController.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGUtils.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGWindow.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGSimpleRenderSystem.cpp">
+      <Filter>Source Files\Engine\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="PWGPointLightSystem.cpp">
+      <Filter>Source Files\Engine\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FirstApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGBuffer.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGCamera.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGDescriptor.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGDevice.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGFrameInformation.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGGameObject.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGModel.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGPipeline.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGRenderer.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGSwapChain.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGUserInputController.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGUtils.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGWindow.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGSimpleRenderSystem.h">
+      <Filter>Header Files\Engine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PWGPointLightSystem.h">
+      <Filter>Header Files\Engine\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleShader.frag">
+      <Filter>Resource Files\FirstApplication</Filter>
+    </None>
+    <None Include="SimpleShader.vert">
+      <Filter>Resource Files\FirstApplication</Filter>
+    </None>
+    <None Include="Mandelbrot.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="compile.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PointLight.vert">
+      <Filter>Resource Files\FirstApplication</Filter>
+    </None>
+    <None Include="PointLight.frag">
+      <Filter>Resource Files\FirstApplication</Filter>
+    </None>
+    <None Include="Shader.comp">
+      <Filter>Resource Files\FirstApplication</Filter>
+    </None>
+  </ItemGroup>
+</Project>
